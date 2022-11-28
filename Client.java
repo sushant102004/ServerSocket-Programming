@@ -28,7 +28,7 @@ class Client {
 
                 str = in.readLine();
                 System.out.println("From Server: " + str);
-            } while(str.equalsIgnoreCase("exit"));
+            } while(!str.equalsIgnoreCase("exit"));
         } catch (Exception e){
             System.out.println(e);
         }

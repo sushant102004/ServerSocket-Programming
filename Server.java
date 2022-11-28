@@ -27,10 +27,11 @@ class Server {
 
                 str = keyboard.readLine();
                 out.println(str);
-            } while (str.equalsIgnoreCase("exit"));
+            } while (!str.equalsIgnoreCase("exit"));
 
         } catch (Exception e) {
             System.out.println(e);
         }
+
     }
 }
